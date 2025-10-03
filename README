@@ -1,0 +1,36 @@
+# Data Preview Task for SSIS
+**Version:** 1.0.0.0  
+**Publisher:** Clements Data Integration  
+
+## Description
+The **Data Preview Task** enhances SQL Server Integration Services (SSIS) by allowing you to **preview tabular data** from either:
+- An **Object variable** (DataTable/DataSet)  
+- A **SQL query** run against an ADO.NET connection  
+
+You can **optionally export the preview to a CSV file** and use the **Proceed Boolean variable** to control downstream package flow.
+
+## Key Features
+- Preview data directly inside Control Flow  
+- Read from Object variables or execute SQL statements  
+- Export preview results to CSV for inspection  
+- Control package execution flow with a configurable Boolean variable (`ProceedBooleanVariableName`)  
+- Simple, lightweight alternative to data viewers
+
+## Installation Instructions
+1. Download the attached `DataPreviewInstaller.msi`.  
+2. Double-click to run the installer.  
+3. If prompted with a **"Publisher Unknown"** warning, click **More Info** and then **Run Anyway**.  
+4. After installation, open SSIS in Visual Studio. You’ll find **Data Preview Task** in the SSIS Toolbox.
+
+## Requirements
+- .NET Framework 4.7.2 or later  
+- SQL Server Data Tools (SSDT)  
+- Visual Studio 2022  
+
+## Support
+For issues or suggestions, contact:  
+📧 brianclements1@hotmail.com  
+
+---
+
+© 2025 Clements Data Integration. All rights reserved.
